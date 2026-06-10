@@ -4,14 +4,23 @@
  */
 package com.mycompany.talleruml;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CltControl
  */
 public class Estudiante extends  PersonalAcademico{
     
-    public Curso curso;
-    public ActividadesSumativas activi;
+    public ArrayList<Curso> curso;
+    public ArrayList<ActividadesSumativas> actividades;
+
+    public Estudiante(String usuario, String contrasena, String nombre, String apellido) {
+        super(usuario, contrasena, nombre, apellido);
+        curso=new ArrayList<>();
+        actividades=new ArrayList<>();
+
+    }
     public void solicitatInscripcionCurso(Curso curso){};
     public void realizarActividadSumativa(Curso curso, ActividadesSumativas actividadesuma){};
 

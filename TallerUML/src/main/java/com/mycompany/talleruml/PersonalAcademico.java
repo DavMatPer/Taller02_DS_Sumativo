@@ -22,7 +22,7 @@ public class PersonalAcademico extends Usuario{
         
     }
     
-    comentarEnForo(Foro foro, String comentario ) {
+    public void comentarEnForo(Foro foro, String comentario ) {
         
     }
     
