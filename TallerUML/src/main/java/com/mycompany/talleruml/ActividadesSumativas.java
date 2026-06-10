@@ -4,13 +4,15 @@
  */
 package com.mycompany.talleruml;
 
+import java.util.Date;
+
 /**
  *
  * @author CltControl
  */
 public class ActividadesSumativas {
         protected String titulo;
-        protected int date;
+        protected Date date ;
         protected Float puntajeMaximo;
         protected String contenido;
         protected Float calificacion;
@@ -24,11 +26,11 @@ public class ActividadesSumativas {
         this.titulo = titulo;
     }
 
-    public int getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(int date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 
