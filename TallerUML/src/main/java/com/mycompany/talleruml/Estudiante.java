@@ -8,6 +8,11 @@ package com.mycompany.talleruml;
  *
  * @author CltControl
  */
-public class Estudiante {
+public class Estudiante extends  PersonalAcademico{
     
+    public Curso curso;
+    public ActividadesSumativas activi;
+    public void solicitatInscripcionCurso(Curso curso){};
+    public void realizarActividadSumativa(Curso curso, ActividadesSumativas actividadesuma){};
+
 }
