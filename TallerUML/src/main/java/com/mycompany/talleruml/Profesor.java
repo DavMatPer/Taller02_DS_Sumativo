@@ -18,7 +18,7 @@ public class Profesor extends  PersonalAcademico{
         
     }
     
-    public void realizarActividadSumativa( Curso curso, ActividadSumativa actividadSumativa) {
+    public void realizarActividadSumativa( Curso curso, ActividadesSumativas actividadSumativa) {
         
     }
     
