@@ -8,6 +8,8 @@ package com.mycompany.talleruml;
  *
  * @author CltControl
  */
-public class Evalucacion {
+public class Evalucacion extends ActividadesSumativas{
+    private int limiteDeTiempo;
+    
     
 }
