@@ -4,22 +4,45 @@
  */
 package com.mycompany.talleruml;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CltControl
  */
 public class Profesor extends  PersonalAcademico{
+    private ArrayList<Curso> cursos;
+    
 
     public Profesor(String usuario, String contrasena, String nombre, String apellido) {
         super(usuario, contrasena, nombre, apellido);
+        cursos = new ArrayList<>();
     }
 
-    public void solicitarInscripcionCurso( Curso curso) {
-        
+    public ArrayList<Curso> getCursos() {
+        return cursos;
+    }
+
+    public void setCursos(ArrayList<Curso> cursos) {
+        this.cursos = cursos;
     }
     
-    public void realizarActividadSumativa( Curso curso, ActividadesSumativas actividadSumativa) {
+    
+
+    public void cargarActividadSumativa( Curso curso, Estudiante estudiante, ActividadesSumativas actividadSumativa) {
+        
+    } 
+            
+    public void  calificarActividadSumativa( Curso curso, Estudiante estudiante, ActividadesSumativas actividadSumativa) {
+        
+    } 
+            
+    public void aceptarInscripcion( Curso curso, String usuarioEstudainte) {
         
     }
+            
+    public void crearForo( Foro foro) {
+        
+    } 
     
 }
