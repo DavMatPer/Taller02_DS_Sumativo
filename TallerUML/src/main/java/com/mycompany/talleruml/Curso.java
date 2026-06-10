@@ -24,14 +24,47 @@ public class Curso {
         estudiantesEnEspera = new ArrayList<>();
         estudiantesInscritos = new ArrayList<>();
     }
-    
-    
 
-    public ActividadesSumativas getActividad_sumativa() {
+    public Profesor getProfesor() {
+        return profesor;
+    }
+
+    public void setProfesor(Profesor profesor) {
+        this.profesor = profesor;
+    }
+
+    public ArrayList<Estudiante> getEstudiantesEnEspera() {
+        return estudiantesEnEspera;
+    }
+
+    public void setEstudiantesEnEspera(ArrayList<Estudiante> estudiantesEnEspera) {
+        this.estudiantesEnEspera = estudiantesEnEspera;
+    }
+
+    public ArrayList<Estudiante> getEstudiantesInscritos() {
+        return estudiantesInscritos;
+    }
+
+    public void setEstudiantesInscritos(ArrayList<Estudiante> estudiantesInscritos) {
+        this.estudiantesInscritos = estudiantesInscritos;
+    }
+
+    public ArrayList<Foro> getForo() {
+        return foro;
+    }
+
+    public void setForo(ArrayList<Foro> foro) {
+        this.foro = foro;
+    }
+    
+    
+    
+    
+    public ArrayList<ActividadesSumativas> getActividad_sumativa() {
         return actividad_sumativa;
     }
 
-    public void setActividad_sumativa(ActividadesSumativas actividad_sumativa) {
+    public void setActividad_sumativa(ArrayList<ActividadesSumativas> actividad_sumativa) {
         this.actividad_sumativa = actividad_sumativa;
     }
 
