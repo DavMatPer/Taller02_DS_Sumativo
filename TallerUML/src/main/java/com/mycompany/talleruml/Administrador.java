@@ -26,7 +26,7 @@ public class Administrador extends Usuario{
         
     }
     
-    asignarResponsable( Curso curso, Profesor profesor ) {
+    public void asignarResponsable( Curso curso, Profesor profesor ) {
         
     }
 }
